@@ -1,4 +1,7 @@
+package me.kjs.boj.P1000.P1700.P1783;
+
 import java.util.Scanner;
+
 
 public class JS1783 {
 
