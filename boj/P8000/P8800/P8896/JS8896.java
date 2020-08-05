@@ -1,4 +1,4 @@
-package me.kjs.boj.P8000.P8800.P8896;
+package boj.P8000.P8800.P8896;
 
 import java.util.Scanner;
 

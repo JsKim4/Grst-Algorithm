@@ -1,4 +1,4 @@
-package me.kjs.boj.P2000.P2400.P2477;
+package boj.P2000.P2400.P2477;
 
 import java.util.ArrayList;
 import java.util.List;

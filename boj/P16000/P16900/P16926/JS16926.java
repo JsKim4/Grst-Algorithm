@@ -1,6 +1,5 @@
-package me.kjs.boj.P16000.P16900.P16926;
+package boj.P16000.P16900.P16926;
 
-import me.kjs.slove_main.Main;
 
 import java.util.Deque;
 import java.util.LinkedList;
