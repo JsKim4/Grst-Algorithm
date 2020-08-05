@@ -22,14 +22,24 @@ public class JS1051 {
         }
         int maxLength = n > m ? m : n;
         while (maxLength > 0) {
-            for (int i = 0; i + maxLength < n; i++) {
-                for (int j = 0; j + maxLength < m; j++) {
-
+            for (int i = 0; i + maxLength <= n; i++) {
+                for (int j = 0; j + maxLength <= m; j++) {
+                    boolean isSame = isSameWidth(i, j, i + maxLength, j + maxLength, map);
+                    if(isSame){
+                        System.out.println(maxLength*maxLength);
+                        return;
+                    }
                 }
             }
             maxLength--;
         }
 
+    }
+
+    private boolean isSameWidth(int i, int j, int maxI, int maxJ, int[][] map) {
+        if(map[i][j]==map[i][maxJ-1]&&map[maxI-1][j]==map[maxI-1][maxJ-1]&&map[i][j]==map[maxI-1][maxJ-1])
+            return true;
+        return false;
     }
 
     public static void main(String[] args) {
