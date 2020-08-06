@@ -1,4 +1,4 @@
-package me.kjs.boj.P11000.P11500.P11536;
+package boj.P11000.P11500.P11536;
 
 import java.util.Scanner;
 
