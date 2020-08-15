@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JS1944 {
     public static void main(String[] args) {
-        while (true) new JS1944().solve();
+        new JS1944().solve();
     }
 
     private void solve() {
