@@ -1,4 +1,4 @@
-package me.kjs.boj.P1000.P1100.P1181;
+package boj.P1000.P1100.P1181;
 
 import java.io.BufferedReader;
 import java.io.IOException;

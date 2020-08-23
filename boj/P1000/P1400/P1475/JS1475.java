@@ -1,7 +1,6 @@
-package me.kjs.boj.P1000.P1400.P1475;
+package boj.P1000.P1400.P1475;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 

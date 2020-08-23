@@ -1,4 +1,4 @@
-package me.kjs.boj.P1000.P1400.P1470;
+package boj.P1000.P1400.P1470;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,6 @@
-package me.kjs.boj.P1000.P1200.P1251;
+package boj.P1000.P1200.P1251;
 
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class JS1251 {
